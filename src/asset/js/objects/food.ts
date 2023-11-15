@@ -1,8 +1,8 @@
 // global variables
-import { FOOD_INFO } from "../globalVariables.js";
+import { FOOD_INFO } from "../globalVariables";
 
 // interfaces
-import { IFoodRadius } from "../interfaces/foodInterfaces.js";
+import { IFoodRadius } from "../interfaces/foodInterfaces";
 
 export default class Food {
   life: boolean;

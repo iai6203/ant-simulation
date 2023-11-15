@@ -1,13 +1,13 @@
 // interfaces
-import { IResize } from "./interfaces/globalInterfaces.js";
-import { IColonyInfo } from "./interfaces/colonyInterfaces.js";
-import { AntCompletePath, IAntInfo } from "./interfaces/antInterfaces.js";
-import { IFoodInfo } from "./interfaces/foodInterfaces.js";
+import { IResize } from "./interfaces/globalInterfaces";
+import { IColonyInfo } from "./interfaces/colonyInterfaces";
+import { AntCompletePath, IAntInfo } from "./interfaces/antInterfaces";
+import { IFoodInfo } from "./interfaces/foodInterfaces";
 
-import { Ant } from "./objects/ant.js";
-import { Queue } from "./utils/dataStructure.js";
-import Colony from "./objects/colony.js";
-import Food from "./objects/food.js";
+import { Ant } from "./objects/ant";
+import { Queue } from "./utils/dataStructure";
+import Colony from "./objects/colony";
+import Food from "./objects/food";
 
 export const RESIZE: IResize = {
   STAGE_WIDTH: 0,

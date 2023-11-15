@@ -1,6 +1,6 @@
-import { RESIZE, COLONIES, ANTS, NUMBER_OF_ANTS, FOODS } from "./globalVariables.js";
-import Colony from "./objects/colony.js";
-import { Ant } from "./objects/ant.js";
+import { RESIZE, COLONIES, ANTS, NUMBER_OF_ANTS, FOODS } from "./globalVariables";
+import Colony from "./objects/colony";
+import { Ant } from "./objects/ant";
 
 export class BaseCanvas {
   private readonly canvas: HTMLCanvasElement;

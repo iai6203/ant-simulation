@@ -1,5 +1,5 @@
-import { RESIZE, ANT_INFO, ANT_PATHS, ANT_COMPLETE_PATHS } from "./globalVariables.js";
-import { IAntPosition } from "./interfaces/antInterfaces.js";
+import { RESIZE, ANT_INFO, ANT_PATHS } from "./globalVariables";
+import { IAntPosition } from "./interfaces/antInterfaces";
 
 export class PathCanvas {
   private readonly canvas: HTMLCanvasElement;

@@ -1,4 +1,4 @@
-import { COLONY_INFO } from "../globalVariables.js";
+import { COLONY_INFO } from "../globalVariables";
 
 export default class Colony {
   public readonly x: number;
