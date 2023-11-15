@@ -1,8 +1,8 @@
-import {IAntPosition, IAntVelocity, IAntRadius, IAntCurrentPath, AntCompletePath} from "../interfaces/antInterfaces.js";
-import {ANT_INFO, ANT_PATHS, ANT_COMPLETE_PATHS, FOODS, FOOD_INFO, COLONIES, COLONY_INFO} from "../globalVariables.js";
+import {IAntPosition, IAntVelocity, IAntRadius, IAntCurrentPath, AntCompletePath} from "../interfaces/antInterfaces";
+import {ANT_INFO, ANT_PATHS, ANT_COMPLETE_PATHS, FOODS, FOOD_INFO, COLONIES, COLONY_INFO} from "../globalVariables";
 
 // math
-import { getDistance } from "../utils/math.js";
+import { getDistance } from "../utils/math";
 
 const getRandomVelocity = () => {
   let r = Math.round(Math.random() * 4);

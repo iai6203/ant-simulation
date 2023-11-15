@@ -1,9 +1,11 @@
-import { RESIZE, FOODS, FOOD_INFO } from "./asset/js/globalVariables.js";
-import { BaseCanvas } from "./asset/js/baseCanvas.js";
-import { PathCanvas } from "./asset/js/pathCanvas.js";
+import { RESIZE, FOODS, FOOD_INFO } from "./asset/js/globalVariables";
+import { BaseCanvas } from "./asset/js/baseCanvas";
+import { PathCanvas } from "./asset/js/pathCanvas";
 
 // objects
-import Food from "./asset/js/objects/food.js";
+import Food from "./asset/js/objects/food";
+
+import "./styles/style.scss"
 
 class App {
   private readonly baseCanvas: BaseCanvas;
