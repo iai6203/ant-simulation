@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ant-simulation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack --config webpack.config.js --mode=development",
