@@ -35,7 +35,7 @@ module.exports = {
         title: "Ant Simulation - v1.0.0",
         links: [],
         scripts: [
-          { type: "module", src: "./main.js" },
+          { type: "text/javascript", src: "./main.js" },
         ],
       },
     }),
