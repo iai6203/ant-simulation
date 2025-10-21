@@ -43,5 +43,11 @@ module.exports = {
   resolve: {
     // 생략 가능한 확장자로`.ts`, `.tsx` 추가
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.json']
-  }
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    hot: true,
+  },
 };
