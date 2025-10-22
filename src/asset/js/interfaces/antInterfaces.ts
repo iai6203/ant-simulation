@@ -26,6 +26,11 @@ export interface IAntCurrentPath {
   path_direction: -1 | 1;
 }
 
+export interface IAntPheromone {
+  type: "search" | "home" | "food";
+  intensity: number;
+}
+
 
 /*
   개미의 집부터 음식까지의 완성된 경로
