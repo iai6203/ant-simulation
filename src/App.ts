@@ -40,10 +40,15 @@ class App {
   }
 
   private animate(): void {
-    window.requestAnimationFrame(this.animate.bind(this));
+    try {
+      window.requestAnimationFrame(this.animate.bind(this));
 
-    this.baseCanvas.animate();
-    this.pathCanvas.animate();
+      this.baseCanvas.animate();
+      this.pathCanvas.animate();
+    }
+    catch (error) {
+      console.error(error)
+    }
   }
 }
 
