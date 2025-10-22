@@ -1,6 +1,7 @@
-import { RESIZE, COLONIES, ANTS, NUMBER_OF_ANTS, FOODS } from "./globalVariables";
+import { RESIZE, COLONIES, ANTS, FOODS } from "./globalVariables";
 import Colony from "./objects/colony";
 import { Ant } from "./objects/ant";
+import { CONFIG } from "../../config";
 
 export class BaseCanvas {
   private readonly canvas: HTMLCanvasElement;
@@ -14,7 +15,7 @@ export class BaseCanvas {
     COLONIES.push(new Colony(RESIZE.STAGE_WIDTH / 2, RESIZE.STAGE_HEIGHT / 2));
 
     // ant
-    for (let i = 0; i < NUMBER_OF_ANTS; i++) {
+    for (let i = 0; i < CONFIG.ANT_NUMBER; i++) {
       ANTS.push(new Ant(RESIZE.STAGE_WIDTH / 2, RESIZE.STAGE_HEIGHT / 2));
     }
 

@@ -1,7 +1,7 @@
 // interfaces
 import { IResize } from "./interfaces/globalInterfaces";
 import { IColonyInfo } from "./interfaces/colonyInterfaces";
-import { AntCompletePath, IAntInfo } from "./interfaces/antInterfaces";
+import { AntCompletePath, IAntInfo, IAntPheromone } from "./interfaces/antInterfaces";
 import { IFoodInfo } from "./interfaces/foodInterfaces";
 
 import { Ant } from "./objects/ant";
@@ -26,7 +26,6 @@ export const COLONY_INFO: IColonyInfo = {
  * Ant Variables
  */
 export const ANTS: Ant[] = [];
-export const NUMBER_OF_ANTS = 1500;
 export const ANT_INFO: IAntInfo = {
   SIZE: 1,
   TICK: .2
@@ -34,6 +33,7 @@ export const ANT_INFO: IAntInfo = {
 
 export const ANT_PATHS = new Queue();
 export const ANT_COMPLETE_PATHS: AntCompletePath[] = [];
+export const ANT_PHEROMONES: Record<string, IAntPheromone> = {};
 
 /**
  * Food
